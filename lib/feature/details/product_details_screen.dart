@@ -34,6 +34,19 @@ class _ProductDetialsScreenState extends State<ProductDetialsScreen> {
                 } else if (index == -1 && widget.model.amount > 0) {
                   cart.add(widget.model);
                 }
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      '${widget.model.name} were added to your cart!',
+                    ),
+                    duration: Duration(seconds: 1),
+                    behavior: SnackBarBehavior.floating,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    margin: EdgeInsets.all(12),
+                  ),
+                );
               });
             },
           ),
@@ -113,10 +126,10 @@ class _ProductDetialsScreenState extends State<ProductDetialsScreen> {
 
                           if (widget.model.favorite) {
                             message =
-                                "${widget.model.name} were added to your favorites!";
+                                '${widget.model.name} were added to your favorites!';
                           } else {
                             message =
-                                "${widget.model.name} were removed from your favorites.";
+                                '${widget.model.name} were removed from your favorites.';
                           }
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(

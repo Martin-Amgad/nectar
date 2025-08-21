@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nectar_ui/core/constants/app_assets.dart';
+import 'package:nectar_ui/core/extentions/navigation.dart';
 import 'package:nectar_ui/core/utils/colors.dart';
 import 'package:nectar_ui/core/widgets/custom_btn.dart';
+import 'package:nectar_ui/feature/auth/pages/login_screen.dart';
 import 'package:nectar_ui/feature/home/model/account_model.dart';
 import 'package:nectar_ui/feature/home/pages/main_screen.dart';
 import 'package:nectar_ui/feature/home/model/product_model.dart';
@@ -80,7 +82,9 @@ class AccountScreen extends StatelessWidget {
                 child: FloatingActionButton(
                   elevation: 0,
                   backgroundColor: Color(0xffF2F3F2),
-                  onPressed: () {},
+                  onPressed: () {
+                    pushWithReplacement(context, LoginScreen());
+                  },
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(25, 0, 25, 0),
                     child: Row(

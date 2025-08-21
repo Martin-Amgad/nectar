@@ -26,7 +26,7 @@ class CategoryList extends StatelessWidget {
       child: Column(
         children: [
           category_model.image,
-          SizedBox(height: 30),
+          SizedBox(height: 25),
           Text(
             category_model.title,
             style: TextStyle(

@@ -65,7 +65,7 @@ class _CartScreenState extends State<CartScreen> {
                   context: context,
                   isDismissible: false,
                   builder: (context) {
-                    return modalbottomsheet(model: cart, amount: amount);
+                    return modalbottomsheet(model: cart);
                   },
                 );
               },

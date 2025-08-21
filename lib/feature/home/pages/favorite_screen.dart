@@ -68,8 +68,6 @@ class FavoriteScreen extends StatelessWidget {
                       cart.add(favItem);
                     }
                   }
-
-                  Favorite.clear();
                 },
               ),
               SizedBox(height: 25),

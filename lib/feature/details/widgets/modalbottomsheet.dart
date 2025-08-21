@@ -6,13 +6,9 @@ import 'package:nectar_ui/feature/home/model/product_model.dart';
 import 'package:nectar_ui/feature/home/pages/order_accepted_screen.dart';
 
 class modalbottomsheet extends StatefulWidget {
-  const modalbottomsheet({
-    super.key,
-    required this.amount,
-    required this.model,
-  });
+  const modalbottomsheet({super.key, required this.model});
   final List<ProductsModel> model;
-  final int amount;
+
   @override
   State<modalbottomsheet> createState() => _modalbottomsheetState();
 }
