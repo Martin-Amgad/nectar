@@ -37,15 +37,15 @@ This project was built as part of the **Digital Egypt Pioneers Initiative (DEPI)
 
 ### Favorites & Profile
 <p float="left">
-   <img src="https://github.com/user-attachments/assets/48e30280-d376-40ba-8181-21ca31bdb9c7" width="200" />
-  <img src="https://github.com/user-attachments/assets/1554de75-3fda-47f6-9108-14a1d2322b17" width="200" />
+  <img src="https://github.com/user-attachments/assets/47088ad6-1da3-4498-b2cf-a52bb4f121ce" width="200" />
+  <img src="https://github.com/user-attachments/assets/6c700c70-ff75-4b6f-b2ee-4fd675ebe78e" width="200" />
  
 </p>
 
 ### Checkput & Order Confirmation
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/47088ad6-1da3-4498-b2cf-a52bb4f121ce" width="200" />
-  <img src="https://github.com/user-attachments/assets/6c700c70-ff75-4b6f-b2ee-4fd675ebe78e" width="200" />
+   <img src="https://github.com/user-attachments/assets/48e30280-d376-40ba-8181-21ca31bdb9c7" width="200" />
+  <img src="https://github.com/user-attachments/assets/1554de75-3fda-47f6-9108-14a1d2322b17" width="200" />
 </p>
 
 ---
