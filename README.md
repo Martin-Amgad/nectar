@@ -49,3 +49,15 @@ This project was built as part of the **Digital Egypt Pioneers Initiative (DEPI)
 </p>
 
 ---
+
+## 💡 Skills & Learnings
+
+- Building **responsive and interactive UIs** with GridView, ListView, Column, Row, and Stack  
+- Implementing **state handling** for dynamic data (cart, favorites, categories)  
+- Creating **form validation** and reusable input components  
+- Applying **UI/UX best practices** for clean, user-friendly interfaces  
+- Structuring a **scalable Flutter project** with organized directories  
+- Practiced **cross-platform development** for Android and iOS  
+- Improved **debugging and performance optimization** skills  
+
+---
