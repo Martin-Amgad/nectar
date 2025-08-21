@@ -57,7 +57,6 @@ This project was built as part of the **Digital Egypt Pioneers Initiative (DEPI)
 - Creating **form validation** and reusable input components  
 - Applying **UI/UX best practices** for clean, user-friendly interfaces  
 - Structuring a **scalable Flutter project** with organized directories  
-- Practiced **cross-platform development** for Android and iOS  
 - Improved **debugging and performance optimization** skills  
 
 ---
